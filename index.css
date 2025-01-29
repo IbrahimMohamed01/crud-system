@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #222;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.crud{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+}
+#title , #count , #category,#search{
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #111;
+  padding: 10px;
+  height: 30px;
+}
+input{
+  outline: none;
+  border: none;
+  background-color: #111;
+   padding: 10px;
+   border-radius: 4px;
+   color: #fff;
+}
+input:focus{
+  transform: scale(1.1);
+  background-color: #000;
+}
+.price input{
+  width: 20%;
+}
+#total{
+  background-color: #a00d02;
+  padding: 5px 2px;
+  border-radius: 4px;
+}
+#total::before{
+  content: "Total";
+}
+button{
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #470053;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 30px;
+  transition: 0.5s;
+}
+button:hover{
+  letter-spacing: 1px;
+    background-color: #51025f;
+}
+#deleteAll{
+  margin: 20px 0;
+}
+.btn-search{
+  display: flex;
+  justify-content: space-between;
+}
+.btn-search button{
+  width: 40%;
+}
+table {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+table th{
+  text-transform: uppercase;
+}
+tr,td{
+  padding: 5px;
+}
+::selection{
+  color: aqua;
+}
+#search{
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
